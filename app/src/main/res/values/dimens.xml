@@ -1,0 +1,84 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">3dp</dimen>
+    <dimen name="activity_vertical_margin">3dp</dimen>
+    <dimen name="quickplay_offset">50dp</dimen>
+    <dimen name="nav_header_vertical_spacing">70dp</dimen>
+    <dimen name="nav_header_horizontal_spacing">20dp</dimen>
+
+    <dimen name="nav_header_height">200dp</dimen>
+    <dimen name="width_card_your_music">150dp</dimen>
+    <dimen name="height_card_your_music">100dp</dimen>
+    <dimen name="height_card_album">220dp</dimen>
+    <dimen name="width_imageview_album">200dp</dimen>
+    <dimen name="height_imageview_album">160dp</dimen>
+    <dimen name="width_card_album">180dp</dimen>
+    <dimen name="height_controller_play_bottom">55dp</dimen>
+    <dimen name="elevation_card_your_music">5dp</dimen>
+    <dimen name="corner_radius_card_your_music">2dp</dimen>
+    <dimen name="size_imageview_card_your_music">50dp</dimen>
+    <dimen name="size_imageview_avatar">50dp</dimen>
+    <dimen name="size_imageview_play_pause">30dp</dimen>
+    <dimen name="width_imageview_animation_play">25dp</dimen>
+    <dimen name="height_imageview_animation_play">25dp</dimen>
+
+    <!--md = material design-->
+    <dimen name="md_margin_small">5dp</dimen>
+    <dimen name="md_margin_normal">10dp</dimen>
+    <dimen name="md_margin_medium">15dp</dimen>
+    <dimen name="md_margin_large">20dp</dimen>
+    <dimen name="md_margin_xlarge">25dp</dimen>
+    <dimen name="md_margin_xxlarge">30dp</dimen>
+    <dimen name="md_margin_xxxlarge">35dp</dimen>
+
+    <dimen name="md_font_text_small">10sp</dimen>
+    <dimen name="md_font_text_normal">14sp</dimen>
+    <dimen name="md_font_text_medium">16sp</dimen>
+    <dimen name="md_font_text_large">18sp</dimen>
+    <dimen name="md_font_text_xlarge">20sp</dimen>
+    <dimen name="md_font_text_xxlarge">24sp</dimen>
+    <dimen name="md_font_text_xxxlarge">26sp</dimen>
+    <dimen name="height_collap_toolbar_favorite">200dp</dimen>
+    <dimen name="size_text_title_toolbar">20sp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="item_offset">10dp</dimen>
+    <dimen name="detail_backdrop_height">250dp</dimen>
+    <dimen name="backdrop_title">30dp</dimen>
+    <dimen name="backdrop_subtitle">18dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="card_album_radius">0dp</dimen>
+    <dimen name="album_cover_height">160dp</dimen>
+    <dimen name="album_title_padding">10dp</dimen>
+    <dimen name="album_title">15dp</dimen>
+    <dimen name="songs_count_padding_bottom">5dp</dimen>
+    <dimen name="songs_count">12dp</dimen>
+    <dimen name="ic_album_overflow_width">20dp</dimen>
+    <dimen name="ic_album_overflow_height">30dp</dimen>
+    <dimen name="ic_album_overflow_margin_top">10dp</dimen>
+
+    <!-- error infobar -->
+    <dimen name="error_horizontal_padding">4dp</dimen>
+    <dimen name="error_vertical_padding">16dp</dimen>
+
+    <!-- playback controls -->
+    <dimen name="playback_controls_albumart_horizontal_margin">8dp</dimen>
+    <dimen name="playback_controls_albumart_size">64dp</dimen>
+    <dimen name="playback_controls_padding">8dp</dimen>
+
+    <!-- navigation drawer -->
+    <dimen name="drawer_item_icon_margin_end">32dp</dimen>
+    <dimen name="drawer_item_height">48dp</dimen>
+    <dimen name="drawer_item_horizontal_padding">16dp</dimen>
+
+    <!-- media browser listview -->
+    <dimen name="media_item_height">72dp</dimen>
+    <dimen name="media_item_icon_margin_start">12dp</dimen>
+    <dimen name="media_item_text_margin_start">60dp</dimen>
+    <!-- Margins for the ShowcaseView button -->
+    <dimen name="button_margin">50dp</dimen>
+
+    <!-- Margins for full screen activity-->
+    <dimen name="text_view_margin">16dp</dimen>
+    <dimen name="end_text_margin">16dp</dimen>
+</resources>

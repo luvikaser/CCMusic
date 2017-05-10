@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/black"
+             android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/recording_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="2016-02-01.wav"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:id="@+id/recording_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="preparing"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/youtube_player_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/recording_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="5dp"
+                android:textColor="@color/white"
+                android:text="00:00"
+                android:textSize="20dp"/>
+
+            <com.github.axet.androidlibrary.widgets.EqualLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/recording_cancel"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:src="@drawable/ic_close_24dp"
+                    />
+
+                <ImageButton
+                    android:id="@+id/recording_pause"
+                    android:layout_width="40dp"
+                    android:alpha="0.3"
+                    android:layout_height="40dp"
+                    android:background="@null"
+                    android:src="@drawable/ic_pause_24dp"/>
+
+                <ImageButton
+                    android:id="@+id/recording_done"
+                    android:layout_width="40dp"
+                    android:alpha="0.3"
+                    android:layout_height="40dp"
+                    android:background="@null"
+                    android:src="@drawable/ic_done"/>
+
+            </com.github.axet.androidlibrary.widgets.EqualLinearLayout>
+
+            <Switch
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/sw_echo"
+                android:background="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

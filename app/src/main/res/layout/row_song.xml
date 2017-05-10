@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/md_margin_normal"
+                android:paddingLeft="@dimen/md_margin_small"
+                android:paddingRight="@dimen/md_margin_normal">
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_toLeftOf="@+id/view_animation"
+                  android:layout_alignParentLeft="true"
+                  android:layout_marginRight="@dimen/md_margin_small"
+                  android:layout_centerVertical="true"
+                  android:orientation="horizontal">
+        <com.cc.ui.image.CircleImageView
+            android:id="@+id/img_avatar_song"
+            android:layout_width="@dimen/size_imageview_avatar"
+            android:layout_height="@dimen/size_imageview_avatar"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_music_default"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/md_margin_large"
+            android:orientation="vertical">
+
+            <TextView android:id="@+id/tv_song_title"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:ellipsize="end"
+                      android:lines="1"
+                      android:text="Vì đó là"
+                      android:textColor="@color/color_text_name_song"
+                      android:textSize="@dimen/md_font_text_normal"/>
+
+            <TextView android:id="@+id/tv_song_sub_title"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:lines="1"
+                      android:ellipsize="end"
+                      android:text="Quang Dung"
+                      android:textSize="@dimen/md_font_text_small"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/view_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:layout_alignParentEnd="true">
+
+        <ImageView
+            android:id="@+id/img_animation_play"
+            android:layout_width="22dp"
+            android:layout_height="@dimen/height_imageview_animation_play"
+            android:scaleType="fitCenter"
+            android:visibility="visible"
+            android:src="@null" />
+
+        <ImageView
+            android:id="@+id/img_more_option"
+            android:layout_width="@dimen/width_imageview_animation_play"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_more_options"
+            android:layout_weight="0.65" />
+    </LinearLayout>
+
+
+</RelativeLayout>

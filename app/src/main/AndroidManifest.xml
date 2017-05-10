@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cc.app">
+
+     <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+
+
+    <application
+        android:name="com.cc.MusicApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/build_app_name"
+        tools:replace="android:label"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+        <activity
+            android:name="com.cc.ui.SplashScreenActivity"
+            android:theme="@style/MyMaterialTheme.CenterAnimation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cc.ui.yourmusic.YourMusicActivity"
+            android:label="@string/app_name" />
+
+        <!-- Main activity for music browsing on phone -->
+        <activity
+            android:name="com.cc.ui.album.AlbumActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.cc.ui.artist.ArtistActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.cc.ui.song.SongLocalActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.cc.ui.search.SearchActivity"
+            android:theme="@style/MyMaterialTheme.NoAnimation" />
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.cc.ui.playback.PlaybackFullScreenActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.cc.ui.yourmusic.YourMusicActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cc.ui.yourmusic.YourMusicActivity" />
+        </activity>
+
+        <!--
+         Main music service, provides media browsing and media playback services to
+         consumers through MediaBrowserService and MediaSession. Consumers connect to it through
+         MediaBrowser (for browsing) and MediaController (for play session control)
+        -->
+        <service
+            android:name="com.cc.service.MusicService"
+            android:exported="true"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="android.media.browse.MediaBrowserService" />
+            </intent-filter>
+        </service>
+
+        <!--
+             A receiver that will receive media buttons and send as
+            intents to your MediaBrowserServiceCompat implementation.
+            Required on pre-Lollipop. More information at
+            http://developer.android.com/reference/android/support/v4/media/session/MediaButtonReceiver.html
+        -->
+        <receiver android:name="android.support.v4.media.session.MediaButtonReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+
+        <provider android:authorities="com.facebook.app.FacebookContentProvider958892230879641"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true"/>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="c08929c746e6f4f5c7f90a31ad054041b2561766" />
+
+        <activity android:name="com.cc.ui.equalizer.EqualizerActivity"></activity>
+
+        <activity
+            android:name="com.cc.ui.karaoke.ui.activity.song.SongKaraokeDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme.Base"/>
+
+        <provider
+            android:name="com.cc.ui.karaoke.data.database.provider.DbProvider"
+            android:authorities="vn.cccorp.music.karaoke.provider"
+            android:exported="false"/>
+
+
+        <activity
+            android:name="com.cc.ui.karaoke.ui.activity.player.PlayerYoutubeActivity"
+             android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+        />
+
+        <activity
+            android:name="com.cc.ui.karaoke.ui.activity.player.ListVideoKaraokeYoutubeActivity"
+            android:label="@string/all_songs"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+        />
+
+        <activity
+            android:name="com.cc.ui.karaoke.ui.activity.record.ListRecordActivity"
+            android:label="@string/record_list"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+        />
+
+        <activity
+            android:name="com.cc.ui.karaoke.ui.activity.record.VMRecordListActivity"
+            android:label="@string/record_list"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+        />
+
+
+        <activity
+            android:name="com.cc.ui.karaoke.ui.activity.player.PlayBackRecordActivity"
+            android:label="@string/record_playback"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+        />
+
+
+        <service android:name="com.cc.ui.karaoke.ui.activity.player.RecordingService"/>
+
+
+        <receiver android:name="com.cc.ui.karaoke.receiver.ConnectivityReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+
+
+<!--        <activity
+            android:name="com.cc.ui.karaoke.ui.activity.player.URLMediaPlayerActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:label="@string/label_play">
+        </activity>-->
+    </application>
+
+</manifest>

@@ -1,0 +1,36 @@
+ext {
+    basePackageName = 'vn.cccorp.music'
+    resAppColorName = 'build_brand_primary'
+    resAppName = 'build_app_name'
+    fieldShowAds = 'ADS'
+
+    //define product flavor
+    free = [
+            packageName: "${basePackageName}.free",
+            appName    : "CCMusics & Kara (Debug)",
+            showAds    : "false",
+            appColor   : "#F44336",
+            versionName: "1.0.0",
+            versionCode: 13
+    ]
+
+    promo = [
+            packageName: "${basePackageName}.promo",
+            appName    : "CCMusics & Kara",
+            showAds    : "false",
+            appColor   : "#F44336",
+            versionName: "1.0.0",
+            versionCode: 1
+    ]
+
+    paid = [
+            packageName: "${basePackageName}.paid",
+            appName    : "CCMusics & Kara",
+            showAds    : "false",
+            appColor   : "#F44336",
+            versionName: "1.0.0",
+            versionCode: 1
+    ]
+
+
+}

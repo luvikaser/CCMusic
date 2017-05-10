@@ -1,0 +1,159 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: 'io.fabric'
+
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+        maven { url 'https://maven.fabric.io/public' }
+        maven { url "https://plugins.gradle.org/m2/" }
+        maven { url "https://jitpack.io" }
+
+    }
+
+    dependencies {
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url 'https://maven.fabric.io/public' }
+        maven { url "https://plugins.gradle.org/m2/" }
+        maven {
+            url "https://oss.sonatype.org/content/repositories/snapshots"
+        }
+    }
+}
+
+android {
+    configurations.all {
+        resolutionStrategy.force 'com.google.code.findbugs:jsr305:1.3.9'
+    }
+    compileSdkVersion androidCompileSdkVersion
+    buildToolsVersion androidBuildToolsVersion
+
+    defaultConfig {
+//        applicationId basePackageName
+        minSdkVersion androidMinSdkVersion
+        targetSdkVersion androidTargetSdkVersion
+        versionCode 5
+        versionName "1.0.0"
+
+    }
+
+    buildTypes {
+        debug {
+            multiDexEnabled true
+            minifyEnabled false
+            debuggable true
+            applicationIdSuffix '.debug'
+        }
+
+        release {
+            multiDexEnabled = false
+            minifyEnabled true
+            debuggable false
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    packagingOptions {
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LGPL2.1'
+        exclude 'LICENSE.txt'
+        exclude 'META-INF/ASL2.0'
+        exclude 'META-INF/maven/jaxen/jaxen/pom.properties'
+        exclude 'META-INF/maven/jaxen/jaxen/pom.xml'
+        exclude 'META-INF/INDEX.LIST'
+    }
+
+    dexOptions {
+        jumboMode = true
+
+        preDexLibraries = false
+        javaMaxHeapSize "3g"
+    }
+
+    productFlavors.whenObjectAdded { flavor ->
+        def flavorData = rootProject.ext[flavor.name]
+
+        flavor.applicationId flavorData.packageName
+        flavor.versionName flavorData.versionNAme
+        flavor.versionCode flavorData.versionCode
+        flavor.buildConfigField 'boolean', fieldShowAds, flavorData.showAds
+        flavor.resValue 'string', resAppName, flavorData.appName
+//        flavor.resValue            'color',    resAppColorName,  flavorData.appColor
+    }
+
+    productFlavors {
+        free {
+            buildConfigField 'String', 'HOST', '"http://cuongthuy.com:8080/"'
+        }
+
+        paid {
+
+        }
+
+        promo {}
+    }
+}
+
+dependencies {
+    def library = rootProject.ext.presentationDependencies
+    def cfgAndroid = rootProject.ext.configurationAndroid
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile('com.crashlytics.sdk.android:crashlytics:2.6.5@aar') {
+        transitive = true;
+    }
+    compile library.support_support_v4
+    compile library.support_appcompat_v7
+    compile library.support_recyclerview_v7
+    compile library.support_design
+    compile library.support_cardview_v7
+    compile cfgAndroid.multidex
+    compile library.butterKnife
+    apt library.butterKnifeCompiler
+    compile library.support_annotations
+    compile library.dagger
+    apt library.daggerCompiler
+    provided library.javaxAnnotation
+    compile project(':data')
+    compile project(':Lyricview')
+    compile 'com.facebook.android:facebook-android-sdk:4.0.0'
+    compile 'com.h6ah4i.android.widget.verticalseekbar:verticalseekbar:0.7.0'
+    compile 'me.relex:circleindicator:1.2.2@aar'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.4'
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'com.squareup.okhttp:okhttp-urlconnection:2.3.0'
+    compile 'me.tankery.lib:circularSeekBar:1.1.3'
+    compile files('libs/YouTubeAndroidPlayerApi.jar')
+    compile 'com.google.apis:google-api-services-youtube:v3-rev178-1.22.0'
+    compile 'com.google.http-client:google-http-client-android:1.23.0-SNAPSHOT'
+    compile 'com.google.api-client:google-api-client-android:1.22.0'
+    compile 'com.google.api-client:google-api-client-gson:1.22.0'
+
+     compile 'com.squareup.picasso:picasso:2.5.0'
+    compile project(':karaoke')
+}

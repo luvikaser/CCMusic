@@ -1,0 +1,507 @@
+[33mcommit 8a83fc4bd90e2240e71e9fa146165335f1e7eaa5[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Sun Dec 18 21:40:39 2016 +0700
+
+    test
+
+[33mcommit 67fc240c7bcdc65d79ec6126f44af122cfc5bb56[m
+Author: DESKTOP-5CSLOMN\Luvi Kaser <leminhnhut95@gmail.com>
+Date:   Sat Dec 17 16:21:35 2016 +0700
+
+    change background equalizer,  fig bug image share song (not yet)
+
+[33mcommit e863fcf59b776fb428222de262fcf48841b193b6[m
+Author: DESKTOP-5CSLOMN\Luvi Kaser <leminhnhut95@gmail.com>
+Date:   Sat Dec 17 15:54:18 2016 +0700
+
+    add share song (bug in avatar)
+
+[33mcommit b263480907b0056162ae9160d2621eeb1fca450d[m
+Author: DESKTOP-5CSLOMN\Luvi Kaser <leminhnhut95@gmail.com>
+Date:   Sat Dec 17 12:29:28 2016 +0700
+
+    add share app and invite
+
+[33mcommit 9b82e95f26f3dabf9699929ac4424159b0ed2316[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Thu Dec 15 08:35:17 2016 +0700
+
+    fix search
+
+[33mcommit 73240830a0af8dded3f95dfc926caf57568683fb[m
+Author: DESKTOP-5CSLOMN\Luvi Kaser <leminhnhut95@gmail.com>
+Date:   Wed Dec 14 10:08:20 2016 +0700
+
+    fix bug logout facebook
+
+[33mcommit 74c451ceabcac81ac7d35c115704c27a4a6425d7[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Wed Dec 14 08:19:44 2016 +0700
+
+    fix bug seach view (not yet)
+
+[33mcommit 6be9a2e934e39ab3679e6e3fc44345ebe4dac8d6[m
+Author: DESKTOP-5CSLOMN\Luvi Kaser <leminhnhut95@gmail.com>
+Date:   Tue Dec 13 01:08:18 2016 +0700
+
+    add login facebook, my setting
+
+[33mcommit 6d624c5427f7b4accb620f026b273dcb39f09fb8[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Sun Dec 11 23:27:40 2016 +0700
+
+    merge missing files
+
+[33mcommit b1fe8b1f2b355e771e438b70446a41cf4887722b[m
+Merge: 56af92d 1335179
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Sun Dec 11 22:31:36 2016 +0700
+
+    Merge remote-tracking branch 'origin/Tai-PlayOnline'
+    
+    # Conflicts:
+    #	domain/src/main/java/com/cc/domain/model/SongBySongApi.java
+
+[33mcommit 13351792b192cda32d17a2114d6bc853b7ea6ef4[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Sun Dec 11 22:15:38 2016 +0700
+
+    add search song, album, artist
+
+[33mcommit 56af92da9da3d6d24a9199117e52cac812fcfcb0[m
+Author: DESKTOP-5CSLOMN\Luvi Kaser <leminhnhut95@gmail.com>
+Date:   Sun Dec 11 18:33:01 2016 +0700
+
+    add setting playback
+
+[33mcommit e66b530bac67cd23e75cddc38e0b53af0dcf6e72[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Sat Dec 3 09:20:55 2016 +0700
+
+    add search online
+
+[33mcommit 3d17faab487fbf31161acd9879b7b54d94ed8b52[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Thu Dec 1 08:28:10 2016 +0700
+
+    fix search, optimize app
+
+[33mcommit b992c0e04dff27813d493ca229bb97a76e5ee9c2[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Sun Nov 27 03:08:00 2016 +0700
+
+    add search, hide/show playback bottom/ fix bugs play
+
+[33mcommit e3039231eb60962b30c25ee96c5ed6f76569d035[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Sun Nov 27 03:06:57 2016 +0700
+
+    add search, hide/show playback bottom/ fix bugs play
+
+[33mcommit 19e59a081764310165f5f044f1e183874108c21b[m
+Author: DESKTOP-5CSLOMN\Luvi Kaser <leminhnhut95@gmail.com>
+Date:   Sat Nov 26 00:24:14 2016 +0700
+
+    add sliding menu, play bottom for albumFragment and artistFragment
+
+[33mcommit 7b69ca60d3e4beb1e9154ed4fa7ee1b81c86f504[m
+Author: DESKTOP-5CSLOMN\Luvi Kaser <leminhnhut95@gmail.com>
+Date:   Fri Nov 25 10:45:03 2016 +0700
+
+    fix bug control seekBar volume
+
+[33mcommit 49097676d60a1dbf1801e849d347004bbb173af8[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Fri Nov 25 07:59:51 2016 +0700
+
+    fix bug shuffle not yet (disable shuffle)
+
+[33mcommit d7b19b08ec8ef40993e23f55f81f6b03778834c1[m
+Author: DESKTOP-5CSLOMN\Luvi Kaser <leminhnhut95@gmail.com>
+Date:   Thu Nov 24 17:34:38 2016 +0700
+
+    set value for seekbar volume when press volume key
+
+[33mcommit 606bc191216f637d92e36b58492a83e3759bcbe0[m
+Author: DESKTOP-5CSLOMN\Luvi Kaser <leminhnhut95@gmail.com>
+Date:   Wed Nov 23 23:14:37 2016 +0700
+
+    update UI
+
+[33mcommit f22f7f18a57f9b1200b06626f69f25d4c1068c4a[m
+Author: DESKTOP-5CSLOMN\Luvi Kaser <leminhnhut95@gmail.com>
+Date:   Wed Nov 23 10:55:36 2016 +0700
+
+    fix small bug in SongLocalAdapter and notify about load image
+
+[33mcommit a89b02be74a5874b88bdbd84ac50639260366535[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Wed Nov 23 08:28:36 2016 +0700
+
+    fix ui, fix bugs
+
+[33mcommit 26fb356680252fcf847fd5ff7a9dac1f3fed44b7[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Tue Nov 22 07:57:42 2016 +0700
+
+    fix ui, fix bugs
+
+[33mcommit 689ae6e18caec48dc59e7ca40a5953f863e46bc5[m
+Author: DESKTOP-5CSLOMN\Luvi Kaser <leminhnhut95@gmail.com>
+Date:   Mon Nov 21 23:48:45 2016 +0700
+
+    add image and auto scroll in listSongFragment
+
+[33mcommit 9439a73d844ab67495c2a923e6be0c402dec3a2d[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Mon Nov 21 22:29:35 2016 +0700
+
+    disable scroll list song to collapse
+
+[33mcommit c9f360ab9fb7e955d03f876e30612f63b7a1775a[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Mon Nov 21 22:17:25 2016 +0700
+
+    disable scroll list song to collapse lyric
+
+[33mcommit 1358f4c834959608bb45403e21a283e3ee704ea3[m
+Author: DESKTOP-5CSLOMN\Luvi Kaser <leminhnhut95@gmail.com>
+Date:   Sun Nov 20 16:52:57 2016 +0700
+
+    fix bug animation circleView, progressBar in play bottom, add control volume
+
+[33mcommit 66508ffa89e1ac2bee254515d6b98984cf84faa7[m
+Author: taindb <taindb@vng.com.vn>
+Date:   Sat Nov 19 12:04:23 2016 +0700
+
+    merger code
+
+[33mcommit 5ffdd94248ab71058c0ec6913d7a161bd6213d08[m
+Merge: 79c5d55 9825026
+Author: taindb <taindb@vng.com.vn>
+Date:   Sat Nov 19 11:30:57 2016 +0700
+
+    Merge remote-tracking branch 'origin/dev-Nhut3'
+    
+    # Conflicts:
+    #	app/src/main/java/com/cc/ui/playback/PlaybackControlFullScreenFragment.java
+    #	app/src/main/java/com/cc/ui/playback/PlaybackControlsFragment.java
+
+[33mcommit 9825026453aedef6d0ce5655057458d38f853d9e[m
+Author: DESKTOP-5CSLOMN\Luvi Kaser <leminhnhut95@gmail.com>
+Date:   Sat Nov 19 11:11:48 2016 +0700
+
+    update ui
+
+[33mcommit 79c5d553d47ba6f53cbcd50b69163679846ee2fd[m
+Merge: b8f2fa3 b410d3a
+Author: taindb <taindb@vng.com.vn>
+Date:   Sat Nov 19 09:23:02 2016 +0700
+
+    Merge remote-tracking branch 'origin/dev-Nhut2'
+    
+    # Conflicts:
+    #	app/src/main/java/com/cc/service/MusicService.java
+    #	app/src/main/java/com/cc/ui/playback/ListSongChildFragment.java
+
+[33mcommit b410d3af7ef69d828cb00c1110b184df78f4e18e[m
+Author: DESKTOP-5CSLOMN\Luvi Kaser <leminhnhut95@gmail.com>
+Date:   Sat Nov 19 08:54:58 2016 +0700
+
+    blur background
+
+[33mcommit b8f2fa386bd203a1828e3a8182f001868089e4f8[m
+Merge: 74c7a38 4cf1d68
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Sat Nov 19 02:52:56 2016 +0700
+
+    Merge commit '4cf1d6832b347af019b292eacff761fc7100ab00'
+    
+    Conflicts:
+    	app/src/main/java/com/cc/service/MusicService.java
+    	app/src/main/java/com/cc/ui/playback/ListSongChildFragment.java
+    	app/src/main/java/com/cc/ui/playback/MyPagerAdapter.java
+    	app/src/main/java/com/cc/ui/playback/PlaybackControlFullScreenFragment.java
+
+[33mcommit 4cf1d6832b347af019b292eacff761fc7100ab00[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Sat Nov 19 02:13:55 2016 +0700
+
+    fix bug playback and list song
+
+[33mcommit 74c7a38a351d8cd3b51a866da07bc6d6fa8c5be8[m
+Author: DESKTOP-5CSLOMN\Luvi Kaser <leminhnhut95@gmail.com>
+Date:   Fri Nov 18 03:12:52 2016 +0700
+
+    lyric and load image album, artist
+
+[33mcommit 6b746b1a4ebe10e634d22bc2b872d57ba3d1fe6c[m
+Author: DESKTOP-5CSLOMN\Luvi Kaser <leminhnhut95@gmail.com>
+Date:   Thu Nov 17 10:54:53 2016 +0700
+
+    fix bug play pause
+
+[33mcommit 503836bf5f88cb221c0ced6049e4b6704f9540b4[m
+Author: taindb <taindb@vng.com.vn>
+Date:   Thu Nov 17 10:16:04 2016 +0700
+
+    update animation List SOng Child
+
+[33mcommit 7f7f5e4139cc884e4b3a2a95bcb7bbdc757dce33[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Thu Nov 17 08:18:09 2016 +0700
+
+    fix repeat play, fix bug update title song in playback + return error
+
+[33mcommit 35c492b12979514dd2d2aeb54b289422a8e63c5f[m
+Merge: d86d4e1 03fafc2
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Thu Nov 17 07:09:06 2016 +0700
+
+    Merge remote-tracking branch 'origin/dev-Nhut2'
+    
+    # Conflicts:
+    #	app/src/main/java/com/cc/service/MusicService.java
+
+[33mcommit d86d4e1c5cb3c61e83fe1f4ff1263c079f382889[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Thu Nov 17 07:01:55 2016 +0700
+
+    fix bug play, add high light item playing
+
+[33mcommit 03fafc2e3cbfbfcadf911681f50a345d225564cd[m
+Author: DESKTOP-5CSLOMN\Luvi Kaser <leminhnhut95@gmail.com>
+Date:   Thu Nov 17 02:43:39 2016 +0700
+
+    save lyric to db, load lyric in fragment lyricSongChild
+
+[33mcommit d66fbcff46fffa9b73f4423266bc309b0727c394[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Wed Nov 16 08:43:44 2016 +0700
+
+    fix bug play, add shuffle, repeat
+
+[33mcommit 47b89a27c2bb0a820169abc54b86a08da2c55834[m
+Author: DESKTOP-5CSLOMN\Luvi Kaser <leminhnhut95@gmail.com>
+Date:   Wed Nov 16 00:10:43 2016 +0700
+
+    fix bug lyric
+
+[33mcommit d1950616826d5c409d8e1b3a15c367ff9f8ba6f0[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Tue Nov 15 08:36:00 2016 +0700
+
+    fix bug play, disable playback lyric, print log to debug
+
+[33mcommit 47796ab9eb910bb1eac9c93023e7336842f4d415[m
+Author: taindb <taindb@vng.com.vn>
+Date:   Mon Nov 14 14:02:34 2016 +0700
+
+    fix bugs leak memory (note: close resource with finally)
+
+[33mcommit e3bdf09ebf1fbd9ca0644a3b52e9b4e8895759c8[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Mon Nov 14 07:40:56 2016 +0700
+
+    fix bug load lyric
+
+[33mcommit 0653cfdcd57c660f9c444fa3b16a1e2bd1bae238[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Sat Nov 12 09:23:54 2016 +0700
+
+    fix bugs
+
+[33mcommit 6c15b77207dc994a42b3ce323e84f7e999bd343b[m
+Merge: 4b04db9 521c2f7
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Fri Nov 11 22:48:41 2016 +0700
+
+    Merge remote-tracking branch 'origin/dev-Nhut'
+
+[33mcommit 4b04db9dc724b6cd034e350fc0ac1371a68a4720[m
+Author: taindb <taindb@vng.com.vn>
+Date:   Fri Nov 11 19:09:51 2016 +0700
+
+    fix bugs
+
+[33mcommit 521c2f77700d1d1688cfec0213e3b4e2ac8e9280[m
+Author: DESKTOP-5CSLOMN\Luvi Kaser <leminhnhut95@gmail.com>
+Date:   Fri Nov 11 17:22:46 2016 +0700
+
+    update playback
+
+[33mcommit ca3e9d03f3ce3105afcb206b7575357f5da41437[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Thu Nov 10 08:09:06 2016 +0700
+
+    show played song, fix bug, add play on, save song played db and load
+
+[33mcommit bb6fe080110d781ca5d81685356d23bad75d4104[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Wed Nov 9 22:14:05 2016 +0700
+
+    Merge remote-tracking branch 'origin/dev-Nhut'
+    
+    Conflicts:
+    	app/src/main/java/com/cc/ui/playback/PlaybackControlFullScreenFragment.java
+
+[33mcommit 8d2cc5cad804ed644ff07b8fefa5e3de3a3e0341[m
+Merge: aaa0d0c 559c2b7
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Wed Nov 9 22:12:45 2016 +0700
+
+    Merge remote-tracking branch 'origin/dev-Nhut'
+    
+    # Conflicts:
+    #	app/src/main/java/com/cc/ui/playback/PlaybackControlFullScreenFragment.java
+
+[33mcommit aaa0d0c093d8e61a53125f36b479908e3068d449[m
+Author: taindb <taindb@vng.com.vn>
+Date:   Wed Nov 9 18:59:34 2016 +0700
+
+    fix bug playback, show list favorite song, add song play recently DAO
+
+[33mcommit 559c2b7eadc4e5eb55a5b5a3014b5ef7e681d697[m
+Author: DESKTOP-5CSLOMN\Luvi Kaser <leminhnhut95@gmail.com>
+Date:   Wed Nov 9 17:46:20 2016 +0700
+
+    lyric in SongLocalFragment, PlaybackControlFullScreenFragment (LyricSongChildFragment, AdjustVolumeChildFragment)
+
+[33mcommit ab4b5c38520ce411d2cf9b73086c6ac5d8cf4d57[m
+Author: DESKTOP-5CSLOMN\Luvi Kaser <leminhnhut95@gmail.com>
+Date:   Wed Nov 9 15:10:35 2016 +0700
+
+    lyric in playback
+
+[33mcommit 9fe20ac7725ce23c06a3406efba5857fc5f5b5ad[m
+Author: taindb <taindb@vng.com.vn>
+Date:   Tue Nov 8 19:04:56 2016 +0700
+
+    fix bug dao favorite song
+
+[33mcommit 88c2414344867407ef3e986abfa6f724f5dd3fe9[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Tue Nov 8 08:30:16 2016 +0700
+
+    add model, controller database app
+
+[33mcommit a9aea4b6c9f4845a9b0a73f4c55dfd9567c17522[m
+Author: taindb <taindb@vng.com.vn>
+Date:   Mon Nov 7 14:57:08 2016 +0700
+
+    add search song, check permission, optimize view(not yet)
+
+[33mcommit 382cb7fd641d24cee0208d8315a0ef9bff85d4bf[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Mon Nov 7 08:36:21 2016 +0700
+
+    add search action
+
+[33mcommit 4feaee3e64636347e11033e68c4465366725371e[m
+Author: taindb <taindb@vng.com.vn>
+Date:   Fri Nov 4 11:05:12 2016 +0700
+
+    adding load song artist, all song, fix bug load music,(bug play (not yet))
+
+[33mcommit 460483821f5eec01a267d337014c57aa7f62a536[m
+Merge: 838b725 701038e
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Fri Nov 4 08:36:45 2016 +0700
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 838b725f7c1816c4eea653e8a2abdc786895df20[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Fri Nov 4 08:35:49 2016 +0700
+
+    add artist (not yet)
+
+[33mcommit 701038e7034962e54c7b44079beb8e9a3660ab1b[m
+Author: DESKTOP-5CSLOMN\Luvi Kaser <leminhnhut95@gmail.com>
+Date:   Fri Nov 4 00:17:34 2016 +0700
+
+    fix LyricView, request lyric of music offline in PlaybackFullScreen
+
+[33mcommit b60052b168a6ec766daa72a3275e325dfa83d801[m
+Author: taindb <taindb@vng.com.vn>
+Date:   Thu Nov 3 12:33:21 2016 +0700
+
+     fix bugs
+
+[33mcommit b5cb8d757131405ae7edafbcc7391b0b5a25bbe0[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Thu Nov 3 07:57:49 2016 +0700
+
+    add presenter request lyric (not yet)
+
+[33mcommit bc1675b87b7cb36e1b576f4d6f5daa8804660f9e[m
+Merge: 786b67d dca40f6
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Thu Nov 3 04:31:45 2016 +0700
+
+    Merge branches 'master' and 'master' of https://bitbucket.org/cuongpmcccorp/musicappandroid
+
+[33mcommit 786b67d3be36ab660347a19a45ab935072fe91c9[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Thu Nov 3 04:26:53 2016 +0700
+
+    add repository, request rest api
+
+[33mcommit dca40f67ba67e5049669a63e59aa06d99b00ab4a[m
+Author: DESKTOP-5CSLOMN\Luvi Kaser <leminhnhut95@gmail.com>
+Date:   Wed Nov 2 17:57:26 2016 +0700
+
+    lyric in playback control FullScreen
+
+[33mcommit fbdc40d032d9b6cbe4db836415d872de4eb85658[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Wed Nov 2 09:34:37 2016 +0700
+
+    revers code
+
+[33mcommit 55e7692cb74842b1493d2844b43f0cde0e048ac8[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Wed Nov 2 08:56:50 2016 +0700
+
+    ssss
+
+[33mcommit 1b3dc8f12a7a69b9595ca185dcb84fdaf11420c9[m
+Merge: 5c699b4 5792221
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Wed Nov 2 08:51:35 2016 +0700
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #	app/src/main/AndroidManifest.xml
+    #	app/src/main/java/com/cc/musiclocal/ui/MusicBaseActivity.java
+    #	app/src/main/java/com/cc/ui/album/SongByAlbumsAdapter.java
+    #	app/src/main/java/com/cc/ui/base/BaseMediaActivity.java
+    #	app/src/main/java/com/cc/ui/base/BaseMediaFragment.java
+    #	app/src/main/java/com/cc/ui/playback/CCPlaybackControlsFragment.java
+    #	app/src/main/res/layout/fragment_control_play_bottom.xml
+    #	app/src/main/res/layout/fragment_play_control_full_screen.xml
+    #	app/src/main/res/layout/fragment_play_music_controller.xml
+    #	app/src/main/res/layout/fragment_play_music_full_screen.xml
+
+[33mcommit 5c699b4b24041b2c253345d2dce24cb68a9620bd[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Wed Nov 2 08:42:55 2016 +0700
+
+    add fabric
+
+[33mcommit 10e35930478ece6d19da9db1f8ad9994e651f31f[m
+Author: nguyenduybatai <nguyenduybatai@gmail.com>
+Date:   Wed Nov 2 08:38:13 2016 +0700
+
+    add play full screen, fix services, adding fabric
+
+[33mcommit 5792221ae1bb2c7349888c2dfa53606da947092d[m
+Merge: 7ebea02 f25bc55
+Author: taindb <taindb@vng.com.vn>
+Date:   Tue Nov 1 09:43:56 2016 +0700
+
+    Merge branch 'master' of https://bitbucket.org/cuongpmcccorp/musicappandroid
+
+[33mcommit 7ebea02edf06cc9ea718dc5c6007de5974f0a57c[m
+Author: taindb <taindb

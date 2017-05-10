@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="@string/my_record_group">
+        <menu>
+            <item
+                android:id="@+id/nav_my_record"
+                android:icon="@drawable/ic_menu_music"
+                android:title="@string/record_list"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/karaoke_group">
+        <menu>
+            <item
+                android:id="@+id/nav_arirang_search"
+                android:icon="@drawable/ic_menu_search"
+                android:title="@string/search_arirang_item_menu"/>
+
+            <item
+                android:id="@+id/nav_california_search"
+                android:icon="@drawable/ic_menu_search"
+                android:title="@string/search_californial_item_menu"/>
+
+            <item
+                android:id="@+id/nav_musiccore_search"
+                android:icon="@drawable/ic_menu_search"
+                android:title="@string/search_musiccore_item_menu"/>
+
+            <item
+                android:id="@+id/nav_vietktv_search"
+                android:icon="@drawable/ic_menu_search"
+                android:title="@string/search_vietktv_item_menu"/>
+
+            <item
+                android:id="@+id/nav_favorite"
+                android:icon="@drawable/ic_menu_favorite"
+                android:title="@string/favorite_item_menu"/>
+        </menu>
+    </item>
+
+
+
+</menu>

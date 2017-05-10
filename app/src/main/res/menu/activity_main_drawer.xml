@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="HOME" />
+        <item
+            android:id="@+id/nav_my_music"
+            android:icon="@drawable/ic_my_music"
+            android:title=" MY MUSIC" />
+        <item
+            android:id="@+id/nav_my_kara"
+            android:icon="@drawable/ic_mic_outline"
+            android:title="MY KARA" />
+        <item
+            android:id="@+id/nav_my_film"
+            android:icon="@drawable/ic_my_film"
+            android:title="MY FILM" />
+
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notify"
+            android:title="NOTIFICATION" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="SETTINGS" />
+    </group>
+
+    <item android:title="COMMUNICATE">
+
+        <item
+            android:id="@+id/nav_share_app"
+            android:icon="@drawable/ic_onnect"
+            android:title="SHARE APP" />
+        <item
+            android:id="@+id/nav_invite"
+            android:icon="@drawable/ic_invite"
+            android:title="INVITE" />
+
+    </item>
+</menu>

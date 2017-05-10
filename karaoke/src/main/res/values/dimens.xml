@@ -1,0 +1,105 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="margin_standard">16dp</dimen>
+    <dimen name="margin_short">8dp</dimen>
+    <dimen name="margin_extra_short">4dp</dimen>
+
+    <dimen name="toolbar_elevation">4dp</dimen>
+
+    <dimen name="toolbar_margin_start">72dp</dimen>
+    <dimen name="flexible_space_height">72dp</dimen>
+    <dimen name="flexible_space_image_height">240dp</dimen>
+    <dimen name="flexible_space_show_fab_offset">120dp</dimen>
+
+    <dimen name="parallax_image_height">180dp</dimen>
+    <dimen name="tab_height">48dp</dimen>
+
+    <dimen name="header_bar_height">72dp</dimen>
+    <dimen name="intersection_height">16dp</dimen>
+
+    <dimen name="sliding_slop">32dp</dimen>
+    <dimen name="sliding_overlay_blur_size">4dp</dimen>
+
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="margin_12dp">12dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_16dp">16dp</dimen>
+
+    <dimen name="width_40dp">40dp</dimen>
+    <dimen name="width_256dp">256dp</dimen>
+
+    <dimen name="height_40dp">40dp</dimen>
+    <dimen name="height_48dp">48dp</dimen>
+    <dimen name="height_56dp">56dp</dimen>
+    <dimen name="height_160dp">160dp</dimen>
+    <dimen name="height_171dp">171dp</dimen>
+
+    <dimen name="text_size_12sp">12sp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_17sp">17sp</dimen>
+    <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="text_size_24sp">24sp</dimen>
+    <dimen name="text_size_30sp">30sp</dimen>
+    <dimen name="height_adview_in_play_game">47dp</dimen>
+    <dimen name="project_card_min_height">80.0dip</dimen>
+    <dimen name="project_card_min_width">150dip</dimen>
+    <dimen name="project_card_100_width">90dip</dimen>
+    <dimen name="project_card_padding">5.0dip</dimen>
+    <dimen name="card_primary_text_size">18.0sp</dimen>
+    <dimen name="card_secondary_text_size">12.0sp</dimen>
+    <dimen name="project_card_500_height">125dp</dimen>
+    <dimen name="card_game_width_size">90dp</dimen>
+
+    <dimen name="list_item_height">72dp</dimen>
+
+
+    <!-- Text sizes -->
+    <dimen name="text_size_extra_micro">10sp</dimen>
+    <dimen name="text_size_micro">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+
+    <!-- Nofication bar button -->
+    <dimen name="status_bar_button_width_height">48dp</dimen>
+    <dimen name="status_bar_album_art">64dp</dimen>
+    <dimen name="status_bar_button_info_container_padding_left">11dp</dimen>
+    <dimen name="notification_expanded_height">128.0dip</dimen>
+    <dimen name="play_controls_notification">48.0dip</dimen>
+    <dimen name="notification_padding">8.0dip</dimen>
+
+
+    <!-- error infobar -->
+    <dimen name="error_horizontal_padding">4dp</dimen>
+    <dimen name="error_vertical_padding">16dp</dimen>
+
+    <!-- playback controls -->
+    <dimen name="playback_controls_albumart_horizontal_margin">8dp</dimen>
+    <dimen name="playback_controls_albumart_size">64dp</dimen>
+    <dimen name="playback_controls_padding">8dp</dimen>
+
+    <!-- navigation drawer -->
+    <dimen name="drawer_item_icon_margin_end">32dp</dimen>
+    <dimen name="drawer_item_height">48dp</dimen>
+    <dimen name="drawer_item_horizontal_padding">16dp</dimen>
+
+    <!-- media browser listview -->
+    <dimen name="media_item_height">72dp</dimen>
+    <dimen name="media_item_icon_margin_start">12dp</dimen>
+    <dimen name="media_item_text_margin_start">60dp</dimen>
+    <!-- Margins for the ShowcaseView button -->
+    <dimen name="button_margin">50dp</dimen>
+
+    <!-- Margins for full screen activity-->
+    <dimen name="text_view_margin">16dp</dimen>
+    <dimen name="end_text_margin">16dp</dimen>
+</resources>

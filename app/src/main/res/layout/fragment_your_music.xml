@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/tools"
+              xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+
+>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/rootView"
+                  android:background="@drawable/bg_container_controller_your_music"
+                  android:orientation="vertical"
+                  android:paddingBottom="@dimen/activity_vertical_margin"
+                  android:paddingTop="@dimen/activity_vertical_margin">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="@dimen/md_margin_small"
+        >
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_favorite_music"
+                android:layout_width="@dimen/width_card_your_music"
+                android:layout_height="@dimen/height_card_your_music"
+                android:layout_alignParentLeft="true"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                card_view:cardCornerRadius="@dimen/corner_radius_card_your_music"
+                card_view:cardElevation="@dimen/elevation_card_your_music"
+            >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_favorite"
+                        android:layout_width="@dimen/size_imageview_card_your_music"
+                        android:layout_height="@dimen/size_imageview_card_your_music"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_favorite"
+                    />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/favorite"
+                        android:textAllCaps="true"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_song_music"
+                android:layout_width="@dimen/width_card_your_music"
+                android:layout_height="@dimen/height_card_your_music"
+                android:layout_alignParentRight="true"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                card_view:cardCornerRadius="@dimen/corner_radius_card_your_music"
+                card_view:cardElevation="@dimen/elevation_card_your_music">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/img_songs"
+                        android:layout_width="@dimen/size_imageview_card_your_music"
+                        android:layout_height="@dimen/size_imageview_card_your_music"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_songs"
+                    />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/songs"
+                        android:textAllCaps="true"
+                    />
+
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="@dimen/md_margin_small">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_album_music"
+                android:layout_width="@dimen/width_card_your_music"
+                android:layout_height="@dimen/height_card_your_music"
+                android:layout_alignParentLeft="true"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                card_view:cardCornerRadius="@dimen/corner_radius_card_your_music"
+                card_view:cardElevation="@dimen/elevation_card_your_music">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/img_albums"
+                        android:layout_width="@dimen/size_imageview_card_your_music"
+                        android:layout_height="@dimen/size_imageview_card_your_music"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_album"
+                    />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/albums"
+                        android:textAllCaps="true"
+                    />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_artist_music"
+                android:layout_width="@dimen/width_card_your_music"
+                android:layout_height="@dimen/height_card_your_music"
+                android:layout_alignParentRight="true"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                card_view:cardCornerRadius="@dimen/corner_radius_card_your_music"
+                card_view:cardElevation="@dimen/elevation_card_your_music">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/img_artists"
+                        android:layout_width="@dimen/size_imageview_card_your_music"
+                        android:layout_height="@dimen/size_imageview_card_your_music"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_artists"
+                    />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/artist"
+                        android:textAllCaps="true"
+                    />
+
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/md_margin_small"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/recently_played"
+                android:textAllCaps="true"
+                android:textSize="@dimen/md_font_text_normal"/>
+
+            <TextView
+                android:id="@+id/tv_count_songs_recently"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 Songs"
+                android:textSize="@dimen/md_font_text_small"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/img_repeat"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="@dimen/md_margin_xlarge"
+                android:padding="@dimen/md_margin_xlarge"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_repeat"/>
+
+            <ImageView
+                android:id="@+id/img_shuffle"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="@dimen/md_margin_xlarge"
+                android:padding="@dimen/md_margin_xlarge"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_shuffle"/>
+
+            <TextView
+                android:id="@+id/tv_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/md_margin_small"
+                android:text="@string/edit"
+                android:textSize="@dimen/md_font_text_normal"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <View android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:layout_marginLeft="@dimen/activity_horizontal_margin"
+          android:layout_marginRight="@dimen/activity_horizontal_margin"
+          android:background="@color/material_grey800"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/md_margin_normal"
+        android:layout_marginBottom="@dimen/md_margin_normal"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <TextView android:id="@+id/tvShowSongNotFound"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:text="@string/song_played_not_found"
+                  android:visibility="gone"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rc_list_recently_played"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

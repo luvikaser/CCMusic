@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">CCMusic</string>
+    <string name="favorite">favorite</string>
+    <string name="songs">songs</string>
+    <string name="recently_played">Recently Played</string>
+    <string name="edit">Edit</string>
+    <string name="repeat">Repeat</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="albums">Albums</string>
+    <string name="artist">Artist</string>
+    <string name="retry">Retry</string>
+    <string name="ok">Ok</string>
+    <string name="title_your_music">YOUR MUSIC</string>
+    <string name="setting">Setting</string>
+    <string name="search_text_hint">Find song...</string>
+    <string name="song">Songs</string>
+    <string name="favorite_songs">Favorite Songs </string>
+    <string name="search_album">Find album</string>
+    <string name="search_artist">Find artist</string>
+    <string name="song_played_not_found">Not have song recently song</string>
+    <string name="song_lyric_not_found">Not found lyric of this song</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_text_hello">HELLO!</string>
+    <string name="navigation_user_name_default">LOGIN FACEBOOK</string>
+    <string name="search">search</string>
+    <string name="more_lyric">More lyric</string>
+    <string name="equalizer">Equalizer</string>
+    <string name="error_dont_have_more_lyric">Not have more lyric for this song</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="facebook_app_id">958892230879641</string>
+    <string name="link_play_store">http://appvn.com/android/details?id=mtechviral.mplaypro</string>
+    <string name="app_link_url">https://fb.me/963253560443508</string>
+    <string name="link_film">http://phim6c.com</string>
+    <string name="preview_image_url">http://misc.trumbanca.com/icons/512.png</string>
+    <string name="description_share_app">App music and karaoke</string>
+    <string name="agree">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="login">LOG IN WITH FACEBOOK</string>
+    <string name="logout">LOG OUT</string>
+    <string name="hello">HELLO!</string>
+    <string name="message_result_not_found">Not found result</string>
+    <string name="invite_friend_success">Invite friends success</string>
+    <string name="invite_friend_fail">Invite friends fail</string>
+
+    <string name="share">Share Facebook</string>
+</resources>

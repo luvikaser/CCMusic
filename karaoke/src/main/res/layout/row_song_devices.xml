@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    android:id="@+id/card_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:background="@drawable/list_row_selector"
+    android:elevation="1dp"
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_song_image"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center_vertical"
+            android:paddingBottom="0dp"
+            android:paddingTop="0dp"
+            android:src="@mipmap/ic_launcher"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_song_image"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:paddingBottom="0dp"
+            android:paddingTop="0dp"
+            android:src="@mipmap/ic_launcher"
+            android:text="@string/font_icon_music"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_30sp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:typeface="monospace"
+                android:id="@+id/tv_song_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="I will always love you"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_17sp"
+                />
+
+            <TextView
+                android:id="@+id/tv_song_artist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Celine Dion"
+                android:textColor="@color/secondary_text_default_material_light"
+                android:textSize="@dimen/text_size_12sp"
+                android:typeface="monospace"
+                android:textStyle="italic"/>
+
+
+            <TextView
+                android:id="@+id/tv_song_album"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Celine Dion"
+                android:textColor="@color/secondary_text_default_material_light"
+                android:textSize="@dimen/text_size_12sp"
+                android:typeface="monospace"
+                android:textStyle="italic"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.cc.ui.yourmusic.YourMusicActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                style="@style/ToolBarSearchStyle"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+                <LinearLayout
+                    android:id="@+id/view_row_title_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/tv_title_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:lines="1"
+                        android:maxLength="20"
+                        android:text="@string/title_your_music"
+                        android:textAllCaps="true"
+                        android:textColor="@color/material_white"
+                        android:textSize="@dimen/md_font_text_medium"/>
+
+                    <TextView android:id="@+id/tv_count"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_gravity="center"
+                              android:ellipsize="end"
+                              android:gravity="center"
+                              android:lines="1"
+                              android:text=""
+                              android:textColor="@color/material_white"
+                              android:textSize="@dimen/md_font_text_small"
+                              android:visibility="gone"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.Toolbar>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/fragment_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </RelativeLayout>
+            <android.support.v7.widget.CardView
+                android:id="@+id/controls_container_player"
+                android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                app:cardElevation="8dp">
+
+                <fragment android:id="@+id/fragment_playback_controls_player"
+                          android:name="com.cc.ui.playback.PlaybackControlsFragment"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_alignParentBottom="true"
+                          app:layout="@layout/fragment_control_play_bottom"
+                          tools:layout="@layout/fragment_control_play_bottom"/>
+
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

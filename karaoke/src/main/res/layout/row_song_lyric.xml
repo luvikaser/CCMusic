@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="45dp"
+              android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_artist"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center|center_horizontal"
+        android:text="Cao Thái Sơn"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size_18sp"/>
+
+</LinearLayout>

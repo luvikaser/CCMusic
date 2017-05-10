@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_gravity="bottom"
+                android:background="@color/colorPrimary"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/view_filter_vols"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_filter_vols"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sort_vols"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_18sp"/>
+
+        <TextView
+            android:id="@+id/tv_font_icon_sort_vols"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/font_icon_sort"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_18sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/view_filter_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_filter_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sort_language"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_18sp"/>
+
+
+        <TextView
+            android:id="@+id/tv_font_icon_sort_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/font_icon_sort"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_18sp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

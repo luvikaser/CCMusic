@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape>
+            <size
+                android:height="20dp"
+                android:width="20dp" />
+
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/red_scrubber_control_normal_holo"/>
+
+</layer-list>
